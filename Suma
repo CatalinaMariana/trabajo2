@@ -1,0 +1,30 @@
+package fes.aragon;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author katy
+ */
+public class Suma {
+    public static void main(String[] args){
+        
+        int a=0 ,b=0;
+        
+        Scanner sc =new Scanner(System.in);
+        
+        System.out.println("Dame el valor de a");
+        a=sc.nextInt();
+        
+        System.out.println("Dame el valor de b");
+        b= sc.nextInt();
+        
+        if (a<= 100 && b <=100){
+            System.out.println("La suma de los numeros es:"+(a+b));
+        }else{
+            System.out.println("Uno de los numeros es incorrecto ");
+        }
+        
+    }
+    
+}
